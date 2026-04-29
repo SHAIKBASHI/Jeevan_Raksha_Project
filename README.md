@@ -110,3 +110,133 @@ This project improved my understanding of:
 **Shaik Bashi**
 
 Learning SQL by building real-world projects 🚀
+
+
+
+# 💊 Jeevan Raksha Pharmacy Management System
+
+## 1. Introduction
+
+Jeevan Raksha Pharmacy Management System is a **database-driven project built using MySQL** to manage pharmacy operations efficiently. The system handles customer information, supplier details, medicine inventory, billing transactions, and ordered items. The main goal of this project is to simulate how a real pharmacy store manages its daily business operations using structured data.
+
+---
+
+## 2. Challenges Faced
+
+During the development of this project, several challenges were encountered:
+
+* Designing proper relationships between multiple tables
+* Maintaining **data integrity** using Primary Keys and Foreign Keys
+* Managing large datasets for customers, suppliers, medicines, and orders
+* Writing optimized SQL queries for business analysis
+* Handling inventory management, stock quantity, and medicine expiry dates
+* Building meaningful reports such as revenue analysis and best-selling medicines
+
+These challenges helped strengthen understanding of **database normalization and SQL query building**.
+
+---
+
+## 3. System Working
+
+The system works in the following flow:
+
+### Customer Management
+
+Stores customer details such as name, phone number, and city.
+
+### Supplier Management
+
+Maintains supplier information for medicine procurement.
+
+### Medicine Inventory
+
+Tracks:
+
+* Medicine name
+* Category
+* Price
+* Stock Quantity
+* Expiry Date
+* Supplier Details
+
+### Order Processing
+
+Whenever a customer purchases medicines:
+
+* A new order is created
+* Payment mode is recorded (UPI / Cash / Card)
+* Total bill amount is calculated
+* Ordered medicines are stored in Order Items
+
+### Reporting & Analysis
+
+The database can generate reports like:
+
+* Total revenue by payment mode
+* High-value bills
+* Best-selling medicine
+* Low stock medicines
+* Customer spending patterns
+
+---
+
+## 4. Tools & Technologies Used
+
+**Database:** MySQL
+**Query Language:** SQL
+**IDE / Environment:** MySQL Workbench / VS Code
+**Concepts Used:**
+
+* CREATE DATABASE
+* CREATE TABLE
+* INSERT INTO
+* SELECT Queries
+* WHERE Clause
+* GROUP BY
+* HAVING
+* ORDER BY
+* Aggregate Functions
+* INNER JOIN
+* Subqueries
+* Primary Key & Foreign Key Relationships
+
+---
+
+## 5. Future Enhancements
+
+This project can be enhanced further by adding:
+
+✅ Login Authentication for Admin/Staff
+✅ Expiry Medicine Alert System
+✅ Automatic Stock Refill Notification
+✅ Customer Purchase History Tracking
+✅ GST Bill Generation
+✅ Dashboard for Sales Analytics
+✅ Integration with Java / Python Frontend
+✅ Mobile App for Pharmacy Management
+✅ Barcode Scanning for Faster Billing
+
+---
+
+## 6. Approach
+
+The development approach followed:
+
+**Step 1:** Understand pharmacy business workflow
+**Step 2:** Identify entities (Customers, Suppliers, Medicines, Orders, Order Items)
+**Step 3:** Design relational database schema
+**Step 4:** Establish relationships using foreign keys
+**Step 5:** Insert sample data
+**Step 6:** Write SQL queries from basic to advanced level
+**Step 7:** Analyze outputs for business insights
+
+This structured approach helped build a scalable and realistic database project.
+
+---
+
+## 7. Conclusion
+
+Jeevan Raksha Pharmacy Management System is a practical implementation of **Relational Database Management using MySQL**. This project demonstrates how SQL can be used not only for storing data but also for generating valuable business insights. It improved skills in **database design, SQL querying, joins, aggregations, and real-world problem solving**.
+
+This project is a strong step toward building complete **full-stack database applications** in the future. 🚀
+
